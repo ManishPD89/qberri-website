@@ -100,11 +100,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+            navbar.style.background = 'rgba(13, 15, 25, 0.95)';
             navbar.style.padding = '0.8rem 0';
-            navbar.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.05)';
+            navbar.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.5)';
         } else {
-            navbar.style.background = 'rgba(255, 255, 255, 0.9)';
+            navbar.style.background = 'rgba(13, 15, 25, 0.85)';
             navbar.style.padding = '1.2rem 0';
             navbar.style.boxShadow = 'none';
         }
